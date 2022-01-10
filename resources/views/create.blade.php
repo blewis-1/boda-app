@@ -42,7 +42,7 @@
                 </div>
                     <div class="mb-3 col">
                         <label for="address" class="form-label">Address of Residence</label>
-                        <input type="tex" class="form-control shadow-none " id="address" name="address" placeholder="eg. Salaama, Lusaala Road">
+                        <input type="text" class="form-control shadow-none " id="address" name="address" placeholder="eg. Salaama, Lusaala Road">
                 </div>
             </div>
             <div class="row">

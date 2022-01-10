@@ -7,7 +7,8 @@
         <div class="row">
             <h3 class="font-weight-bold col-6">Boda Listing</h3>
             <div class="col-3">
-                    <a class="btn btn-danger" href="{{ route("boda.create")}}">
+                    <a class="btn btn-danger"
+                    href="{{ route("boda.create")}}">
                      <i class="bi bi-plus-circle-fill"></i>
                       Add Record
                     </a>
@@ -15,13 +16,14 @@
             <div class="input-group  col pb-1">
                 <form action="#" method="get">
                     <input
+
                     type="text"
                     value="{{request('search')}}"
                     name="search"
                     class="form-control"
-                    placeholder="Search Name & Reg No"
+                    placeholder='Name & Reg No'
                     aria-label="Search"
-                    aria-describedby="basic-addon1"
+                    aria-describedby="search"
                     >
                 </form>
             </div>
